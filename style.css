@@ -2,8 +2,12 @@ body{
     background-color: rgb(192, 203, 216);
     font-family: Arial;
 }
+/*You should have used the gallary class you created*/
+/*Using div here gives this styles to all the divs in your html file, is that what you want*/
+/*Because of the div you used here, that is why it does not run well on LiveServer*/
 
-div{
+
+.gallary{
     width: 200px;
     border: 12px solid #fff;
     background-color: #fff;
@@ -13,10 +17,14 @@ div{
     justify-content: center;
     border-radius: 15px;
     }
-    div img{
+
+/*div img is not necessary, just use img, study more of CSS selectors*/
+img{
         border-radius: 10px;
     }
-div.desc{
+
+/*div.desc means something else. Just use desc which is the class. Study more of CSS selectors*/
+.desc{
     padding-top: 10px;
     border: 0px;
     margin:0px;
